@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16B84DB1BC6B39A00335ACF /* Soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = E16B84DA1BC6B39A00335ACF /* Soccer.png */; };
 		E1F47C701BC67E76002FC2BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F47C6F1BC67E76002FC2BA /* main.m */; };
 		E1F47C731BC67E76002FC2BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F47C721BC67E76002FC2BA /* AppDelegate.m */; };
 		E1F47C761BC67E76002FC2BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F47C751BC67E76002FC2BA /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		E1F47C7B1BC67E76002FC2BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F47C7A1BC67E76002FC2BA /* Images.xcassets */; };
 		E1F47C7E1BC67E76002FC2BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F47C7C1BC67E76002FC2BA /* LaunchScreen.xib */; };
 		E1F47C8A1BC67E77002FC2BA /* RollingballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F47C891BC67E77002FC2BA /* RollingballTests.m */; };
+		E1F47C951BC68263002FC2BA /* Green Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F47C941BC68263002FC2BA /* Green Ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E16B84DA1BC6B39A00335ACF /* Soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soccer.png; sourceTree = "<group>"; };
 		E1F47C6A1BC67E76002FC2BA /* Rollingball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rollingball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F47C6E1BC67E76002FC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F47C6F1BC67E76002FC2BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		E1F47C831BC67E77002FC2BA /* RollingballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollingballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F47C881BC67E77002FC2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F47C891BC67E77002FC2BA /* RollingballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollingballTests.m; sourceTree = "<group>"; };
+		E1F47C941BC68263002FC2BA /* Green Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Ball.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		E1F47C6C1BC67E76002FC2BA /* Rollingball */ = {
 			isa = PBXGroup;
 			children = (
+				E1F47C931BC681B4002FC2BA /* Photo */,
 				E1F47C711BC67E76002FC2BA /* AppDelegate.h */,
 				E1F47C721BC67E76002FC2BA /* AppDelegate.m */,
 				E1F47C741BC67E76002FC2BA /* ViewController.h */,
@@ -117,6 +122,15 @@
 				E1F47C881BC67E77002FC2BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1F47C931BC681B4002FC2BA /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E16B84DA1BC6B39A00335ACF /* Soccer.png */,
+				E1F47C941BC68263002FC2BA /* Green Ball.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F47C791BC67E76002FC2BA /* Main.storyboard in Resources */,
+				E16B84DB1BC6B39A00335ACF /* Soccer.png in Resources */,
+				E1F47C951BC68263002FC2BA /* Green Ball.png in Resources */,
 				E1F47C7E1BC67E76002FC2BA /* LaunchScreen.xib in Resources */,
 				E1F47C7B1BC67E76002FC2BA /* Images.xcassets in Resources */,
 			);
@@ -416,6 +432,7 @@
 				E1F47C8F1BC67E77002FC2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1F47C901BC67E77002FC2BA /* Build configuration list for PBXNativeTarget "RollingballTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				E1F47C921BC67E77002FC2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
